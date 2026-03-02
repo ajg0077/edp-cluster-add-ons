@@ -177,10 +177,9 @@ krakend:
   namespace: krci-krakend
 
 kuberocketci-pipelines:
-  createNamespace: false
-  enable: false
-  namespace: krci
-  repoUrl: ssh://git@github.com:22/epmd-edp/helm-helm-pipeline.git
+  enable: true
+  namespace: 928c0d10
+  repoUrl: ssh://git@github.com:22/ajg0077/custom-pipelines-928c0d10.git
 
 kuberocketci-rbac:
   createNamespace: false
